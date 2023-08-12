@@ -1,0 +1,43 @@
+
+
+body{
+    background-color: #242A32;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1{
+    text-align: center;
+    -webkit-text-stroke: 0.1px #0296E5;
+    color: transparent;
+}
+.navBar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.navBar div{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.navBar > div > img{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+input{
+    display: block;
+}
+#Api{
+    background-color: #3A3F47;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+#SearchBar{
+    background-color: #3A3F47;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+ }
